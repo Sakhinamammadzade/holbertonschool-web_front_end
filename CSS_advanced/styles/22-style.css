@@ -203,12 +203,15 @@ body {
 }
 
 :root {
+    /* color  variables */
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-black);
+    /* text color */
+   --text-color: var(--color-white);
+   /* font familiy */
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -218,19 +221,25 @@ body {
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
+    /* line-height */
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    /* section */
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: var(--color-black);
+    --section-title-color: var(--color-white);
     --section-padding: 5rem 0;
     --section-header-padding:0 0 3rem;
     --section-body-padding:0 0 3rem;
     --section-footer-padding:3rem 0 0;
     --section-footer-align:center;
+    --section-tagline-margin:0;
+
+    /* footer */
     --footer-padding:5rem 0 1rem;
+    /* nav items */
     --nav-item-font-family:var(--font-family-title);
     --nav-item-font-weight:var(--font-weight-bold);
     --nav-item-font-size:var(--font-size-medium);
@@ -238,10 +247,7 @@ body {
     --nav-item-display:inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover:var(--color-primary);
-    --section-tagline-margin:0;
-    /* text color */
-    --text-color:var(--color-white);
-    --section-title-color:var(--color-white);
+   
 }
 
 h1,
