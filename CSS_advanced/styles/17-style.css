@@ -235,6 +235,7 @@ a:active {
     padding: var(--section-header-padding);
 }
 .section-body{
+    text-align: var(--section-header-align);
     padding: var(--section-body-padding);
 }
 .section-footer{
