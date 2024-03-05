@@ -294,14 +294,7 @@ a:active {
 .footer{
     padding: var(--footer-padding);
 }
-.footer-copyright{
-    margin: 0;
-    font-size: var(--font-size-small);
-    color: var(--text-color);
-}
-.footer ul{
-    text-align: right;
-}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -349,7 +342,7 @@ a:active {
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
 }
-ul .row{
+ul.row{
 margin: 0;
 padding: 0;
 list-style: none;
@@ -363,4 +356,12 @@ list-style: none;
     width: 50%;
     float: left;
     padding: 0.5rem;
+}
+.footer-copyright{
+    margin: 0;
+    font-size: var(--font-size-small);
+    color: var(--text-color);
+}
+.footer ul{
+    text-align: right;
 }
