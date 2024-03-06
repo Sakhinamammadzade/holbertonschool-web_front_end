@@ -527,12 +527,13 @@ ul.row {
     padding-top: 45%;
 }
 .card-work .card-title a::after{
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    content: "";
+
 }
 .card-work:hover .card-title{
     opacity: 1;
