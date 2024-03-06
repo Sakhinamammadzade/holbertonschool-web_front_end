@@ -511,7 +511,10 @@ ul.row {
     right: -0.1rem;
     z-index: 1;
 }
-.card-work:hover .card-inner{
+.card-work:hover .card-inner {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.card-work .card-title{
     text-align: center;
     margin: 0;
     opacity: 0.3;
