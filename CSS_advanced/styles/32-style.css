@@ -556,26 +556,29 @@ ul.row {
 }
 /* !Animations */
 .card-work{
-    transition: var(--transition-duration);
-    transition-timing-function: var(--transition-cubic-bezier);
+    transition: var(--transition-duration)  var(--transition-cubic-bezier);
+   
 }
 .card-work:hover .card-image{
-    transform: scale(1);
-    transition-property: transform;
+    transform: scale(1.2);
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-outer{
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
     transform: scale(0.95);
 }
 .nav .nav-link::before{
-    transition:var(–-transition-duration) var(--transition-cubic-bezier);
+    transition:var(--transition-duration) var(--transition-cubic-bezier);
 
 }
-.button:hover{
-transition-duration: var(--transition-duration);
-color: var(--transition-duration);
-background-color:transition-property
-}
-
+.button {
+    transition: color var(--transition-duration) var(--transition-cubic-bezier),
+    background-color var(--transition-duration) var(--transition-cubic-bezier);
+  }
+  
+  .button:hover {
+    transition-duration: var(--transition-duration);
+  }
 
 .card-work:hover .card-image{
     transition:var(–-transition-duration) var(--transition-cubic-bezier);
